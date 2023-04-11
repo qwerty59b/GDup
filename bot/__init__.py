@@ -32,12 +32,12 @@ def is_admin(uid):
 # Post_url = os.environ.get("DATABASE_URL")
 if os.environ.get("DATABASE_URL"):
     LOGGER.info("Env Database Avalible ")
-    Post_url = "aca pones la db de elephantsql"
+    Post_url = "postgres://dismbfut:ilAIzqP-elOph6S681t6zqME9K4gF6yc@heffalump.db.elephantsql.com/dismbfut"
 
 else:
 
     LOGGER.info("Envoriment Database Not Found  Using hardcoding method ")
-    Post_url = "aca pones la db de elephantsql"  # testdb
+    Post_url = "postgres://dismbfut:ilAIzqP-elOph6S681t6zqME9K4gF6yc@heffalump.db.elephantsql.com/dismbfut"  # testdb
 
 
 DownloadDict = {}
