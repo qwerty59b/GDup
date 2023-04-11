@@ -1,0 +1,11 @@
+{
+  "name": "Gdrive upbot",
+  "description": "Google Drive Bot.",
+  "logo": "https://telegra.ph/file/6c67d32196700f6712af7.jpg",
+  "keywords": ["googledrive"],
+  "repository": "aca va el link de tu repo",
+  "success_url": "https://t.me/gdriveupme_bot",
+  "website": "aca va el link de tu repo",
+  "env": {},
+  "stack": "container"
+}
