@@ -2,7 +2,7 @@
 
 async def inChannel(client,message):
         try: 
-            await client.get_chat_member("zzzxdpromax", message.from_user.id)
+            await client.get_chat_member("zzzzzzpromaxx", message.from_user.id)
             print("in channel")
             return True
         except Exception as e:
