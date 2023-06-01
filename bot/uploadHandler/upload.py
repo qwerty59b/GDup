@@ -19,7 +19,7 @@ async def upload_handler(file_path, sentm):
             [InlineKeyboardButton(
                 "Download", url=f"https://drive.google.com/open?id={_uploadedFile['id']}")],
             [InlineKeyboardButton(
-                "Index link", url= requote_uri(f"https://www.suup.workers.dev/0:/{_uploadedFile['title']}"))],
+                "Index link", url= requote_uri(f"https://mydrive-maxdin.suup.workers.dev/0:/gdriveupmebot/{_uploadedFile['title']}"))],
             [InlineKeyboardButton(
                 "Delete permanent",callback_data=f"delete||{_uploadedFile['id']}" )],
             [InlineKeyboardButton(
