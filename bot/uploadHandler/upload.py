@@ -21,8 +21,6 @@ async def upload_handler(file_path, sentm):
             [InlineKeyboardButton(
                 "Index link direct", url= requote_uri(f"https://mydrive-maxdin.suup.workers.dev/0:/gdriveupmebot/{_uploadedFile['title']}"))],
             [InlineKeyboardButton(
-                "Index link", url= requote_uri(f"https://mydrive-maxdin.suup.workers.dev/0:/gdriveupmebot/"),
-            [InlineKeyboardButton(
                 "Delete permanent",callback_data=f"delete||{_uploadedFile['id']}" )],
             [InlineKeyboardButton(
                 "Move To Trash", callback_data=f"trash||{_uploadedFile['id']}")],
