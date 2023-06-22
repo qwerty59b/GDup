@@ -1,7 +1,7 @@
 import os
 
 DOWNLOAD_LOCATION = "./Downloads"
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "5954160940:AAFwM3TLMACeNxeZjCHINJadsCLVOdyg9Ms")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6099284488:AAENFcuyRMhoFB2jryKooCRD91_l6_ul1EE")
 APP_ID = int(os.environ.get("API_ID", "7015264"))
 API_HASH = os.environ.get("API_HASH", "9ebbc8ad41951c59b0908cdd2100a158")
 AUTH_GROUP = "" #aca no pongas nada
